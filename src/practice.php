@@ -1,5 +1,6 @@
 <?php
 session_start();
+
     if(isset($_GET['shuffle'])):
         $level = (int)$_GET['shuffle'];
     else: $level = 1; // if user uses the url to access the page
@@ -18,6 +19,7 @@ session_start();
         $message = $_SESSION['scors'];
     endif;
 
+
 ?>
 <!DOCTYPE html>
 <html lang="fr">
@@ -29,8 +31,9 @@ session_start();
     <title>Practice</title>
 </head>
 <body>
-<header><button class="btn"><a href="../index.php">Acceul</a></button></header>
+<header><button class="btn"><a href="../index.php">Accueil</a></button></header>
 <main>
+
     <div class="practice">
         <table>
             <tr>
