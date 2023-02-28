@@ -14,7 +14,7 @@
     <title>les tables de multiplication</title>
 </head>
 <body>
-    <header><button class="btn"><a href="../index.php">Acceul</a></button></header>
+    <header><button class="btn"><a href="../index.php">Accueil</a></button></header>
     <main>
         <div class="table">
                 <table>

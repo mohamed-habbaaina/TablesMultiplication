@@ -8,7 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
-    <script src="./app.js"></script>
 
     <title>Tables de Multiplication</title>
 </head>
@@ -47,7 +46,7 @@
                 <form action="./src/practice.php">
                     <select name="shuffle">
                         <option value="1">Aliatoire</option>
-                        <option value="2">Choisis un chiffre</option>
+                        <!-- <option value="2">Choisis un chiffre</option> -->
                     </select>
                     <button>Validez</button>
                 </form>
@@ -57,7 +56,7 @@
         </div>
 
         <div>
-            <button class="btn"><a href="./resultats.html">Résultats</a></button>
+            <button class="btn"><a href="./src/resultats.html">Voir Les Résultats</a></button>
         </div>
     </main>
 </body>
