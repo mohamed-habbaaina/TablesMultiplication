@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;    
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background: no-repeat url("../img/background.jpg");
+    background-size: cover;
+}
+/*************** index  ******************/
+/* ************************************* */
+main{
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding-bottom: 20%;
+}
+main p{
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+main span{
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 243, 168);
+}
+.home h2{
+    margin: 10px 0 20px 0;
+}
+.home form{
+    display: flex;
+    flex-direction: column;
+}
+.home select{
+    margin: 10px 0;
+    padding: 5px;
+}
+button{
+    color: white;
+    background-color: rgb(199, 13, 13);
+    padding: 3px 0;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+button:hover{
+    background-color: rgb(14, 211, 222);
+    letter-spacing: 2px;
+}
+button a{
+    color: white;
+}
+.btn{
+    width: 200px;
+    margin-top: 30px;
+    padding: 5px 0;
+
+}
+
+@media screen and (max-width: 650px) {
+    .container{
+        flex-direction: column;
+    }
+    .home{
+        margin-bottom: 20px;
+    }
+}
+
+/*************** revision  ***************/
+/* ************************************* */
+
+header{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 7px;
+    border: 2px solid rgb(199, 13, 13);
+    text-shadow: -1 0 black;
+    background-color: white;
+    box-shadow: -10px 5px 5px rgb(199, 13, 13 ,.4);
+}
+.table th, .table td{
+    padding: 3px 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.table th{
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+.table span{
+    color: rgb(255, 110, 7);
+}
+
+/*************** practice  ***************/
+/* ************************************* */
+
+.practice{
+    background-color: rgb(255, 243, 168);
+    padding: 30px 20px;
+    margin-bottom: 20%;
+    border-radius: 10px;
+}
+.practice table{
+    border: 2px solid rgb(199, 13, 13);
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 0 auto 20px;
+    background-color: white;
+    text-align: center;
+}
+.practice table td{
+    padding: 0 10px;
+}
+.practice form{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+.practice form input{
+    margin: 10px 0;
+    padding: 5px 7px;
+    border: 2px solid rgb(199, 13, 13);
+    border-radius:10px 0 10px 0px;
+}
+.practice p{
+    margin: 30px auto;
+    text-align: center;
+    color: rgb(255, 110, 7);
+    letter-spacing: 1.5px;
+}
+
+/*************** resultat  ***************/
+/* ************************************* */
+
+.reslt{
+    margin-bottom: 40px;
+}
+.resultat{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 50px 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(199, 13, 13);
+    box-shadow: -10px 5px 5px rgb(199, 13, 13 ,.4);
+
+}
+.resultat th, .resultat td{
+    border: 1px solid rgb(199, 13, 13);
+    padding: 5px 7px;
+    text-align: center;
+}
