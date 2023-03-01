@@ -31,7 +31,10 @@ session_start();
     <title>Practice</title>
 </head>
 <body>
-<header><button class="btn"><a href="../index.php">Accueil</a></button></header>
+<header>
+    <button class="btn" style="margin-top: 30px;"><a href="../index.php">Accueil</a></button>
+    <button class="btn"><a href="./resultats.html">Voir Les Résultats</a></button>
+</header>
 <main>
 
     <div class="practice">
